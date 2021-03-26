@@ -20,7 +20,7 @@ SpatialDroppout goes a step further and drops the 1D feature map across the chan
 
 ```model = SpatialDropout1D(0.1)(model)```
 
-A special **LSTM layer* needs to be included. This can be phrased in a Bidirectional form that will all the training to account for the full rang of the sequnece as opposed to just the most recent entry.
+A special **LSTM layer** needs to be included. This can be phrased in a Bidirectional form that will all the training to account for the full rang of the sequnece as opposed to just the most recent entry.
 LSTM hyper params include:
 - units - larger = longer to train and more accurate]
 - recurrent drop out - see above
@@ -39,6 +39,8 @@ You will need the **output dense layer** which will in this case will have dimen
 
 Finally compile and optimise with **model.compile**
 
-```model.compile(optimizer="adam",
+```
+model.compile(optimizer="adam",
               loss="sparse_categorical_crossentropy",
-              metrics=["accuracy"])```
+              metrics=["accuracy"])
+```
