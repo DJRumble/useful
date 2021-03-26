@@ -1,0 +1,30 @@
+[I 15:08:41.105 LabApp] Copying /home/ubuntu/.ipython/profile_default/ipython_nbconvert_config.py -> /home/ubuntu/.jupyter/jupyter_nbconvert_config.py
+[I 15:08:41.112 LabApp] Writing notebook server cookie secret to /home/ubuntu/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 15:08:41.933 LabApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 15:08:41.948 LabApp] Loading IPython parallel extension
+[I 15:08:43.927 LabApp] jupyter_tensorboard extension loaded.
+[I 15:08:43.931 LabApp] JupyterLab extension loaded from /usr/local/anaconda/lib/python3.6/site-packages/jupyterlab
+[I 15:08:43.932 LabApp] JupyterLab application directory is /usr/local/anaconda/share/jupyter/lab
+[W 15:08:43.934 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 15:08:43.936 LabApp] JupyterLab extension loaded from /usr/local/anaconda/lib/python3.6/site-packages/jupyterlab
+[I 15:08:43.936 LabApp] JupyterLab application directory is /usr/local/anaconda/share/jupyter/lab
+[I 15:08:43.937 LabApp] Serving notebooks from local directory: /
+[I 15:08:43.937 LabApp] The Jupyter Notebook is running at:
+[I 15:08:43.937 LabApp] http://(domino-run-5e21cddc4cedfd0007f53ee2 or 127.0.0.1):8888/
+[I 15:08:43.937 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 15:08:43.942 LabApp] 302 GET / (10.0.242.198) 0.56ms
+[I 15:08:46.915 LabApp] 302 GET / (10.0.241.53) 0.55ms
+[I 15:08:46.921 LabApp] 302 GET / (10.0.241.53) 0.42ms
+[I 15:08:47.299 LabApp] 302 GET / (10.0.241.53) 0.57ms
+[I 15:08:53.061 LabApp] Node v8.10.0
+    
+[I 15:08:53.149 LabApp] Build is up to date
+[W 15:08:53.159 LabApp] 404 GET /lab/api/workspaces/lab?1579273732900 (10.0.241.53): Workspace 'lab' ('lab-a511') not found
+[W 15:08:53.159 LabApp] Workspace 'lab' ('lab-a511') not found
+[W 15:08:53.159 LabApp] 404 GET /lab/api/workspaces/lab?1579273732900 (10.0.241.53) 1.15ms referer=https://5e21cddc4cedfd0007f53ee2-workspace.try.dominodatalab.com/lab/tree/mnt?
+[I 15:09:05.847 LabApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+Websocket closed
+TermSocket.open: 1
+TermSocket.open: Opened 1
